@@ -7,10 +7,18 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-  {{ content }}
+  {% include header.html %}
+
+  <main>
+    
+    {{ content }}
   
-  {% if page.script %}
-    <script src="{{ '/assets/js/' | append: page.script | relative_url }}"></script>
-  {% endif %}
+    {% if page.script %}
+      <script src="{{ '/assets/js/' | append: page.script | relative_url }}"></script>
+    {% endif %}
+
+  </main>
+
+  {% include footer.html %}
 </body>
 </html>
