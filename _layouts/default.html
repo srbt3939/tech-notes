@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  {{ content }}
+  
+  {% if page.script %}
+    <script src="{{ '/tech-notes/assets/js/' | append: page.script | relative_url }}"></script>
+  {% endif %}
+</body>
+</html>
