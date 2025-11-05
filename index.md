@@ -9,6 +9,8 @@ script: toppage.js
 - [AWS INBOX](./notes/aws.md)
     - [Using Lambda with SQS](./notes/UsingLambdaWithSQS.md)
 - [Python メモ](./notes/python.md)
+- git
+    - [Git コミットメッセージ 完全ガイド](./notes/git/AboutComment.md)
 - [About ページ](./about.md)
 
 test run toppage.js
