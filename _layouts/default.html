@@ -14,7 +14,13 @@
   {% include header.html %}
 
   <main>
+    
     {{ content }}
+  
+    {% if page.script %}
+      <script src="{{ '/assets/js/' | append: page.script | relative_url }}"></script>
+    {% endif %}
+
   </main>
 
   {% include footer.html %}
