@@ -24,5 +24,15 @@ script: toppage.js
 ---
 test run toppage.js
 3D.jsのテストもついでに
-
-<div id="chart"></div>
+<div>
+  <svg id="demo-svg" width="250" height="250"></svg>
+</div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+  d3.select("#demo-svg")
+    .append("rect")
+    .attr("x", 50).attr("y", 50)
+    .attr("width", 150)
+    .attr("height", 100)
+    .attr("fill", "orange");
+</script>
