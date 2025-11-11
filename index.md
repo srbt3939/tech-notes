@@ -1,7 +1,7 @@
 ---
 layout: default
 title: トップページ
-script: assets/js/toppage.js
+script: toppage.js
 ---
 
 # 技術メモ一覧
