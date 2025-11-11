@@ -7,7 +7,7 @@ script: toppage.js
 # 技術メモ一覧
 
 ## AWS
-- [Using Lambda with SQS](./notes/UsingLambdaWithSQS.md)
+- [Using Lambda with SQS](./notes/aws/UsingLambdaWithSQS.md)
 
 ## Python メモ
 - [Python メモ](./notes/python.md)
