@@ -6,7 +6,7 @@ script: toppage.js
 
 # 技術メモ一覧
 
-- [AWS INBOX](./notes/aws.md)
+- AWS
     - [Using Lambda with SQS](./notes/UsingLambdaWithSQS.md)
 - [Python メモ](./notes/python.md)
 - git
