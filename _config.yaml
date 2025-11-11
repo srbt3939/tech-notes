@@ -1,4 +1,3 @@
 title: スリバチの技術メモ帳
 description: 技術メモ集
 theme: jekyll-theme-modernist  # デフォルトテーマを使わない
-markdown: kramdown
