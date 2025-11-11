@@ -13,7 +13,7 @@ script: assets/js/toppage.js
 - [Python メモ](./notes/python.md)
 
 ## git
-- [Git コミットメッセージ 完全ガイド](./notes/git/GitCommentMeassageGuide.md)
+- [Gitコミットメッセージの書き方とアンチパターン](./notes/git/GitCommentMeassageGuide.md)
 
 ## GitHub
 - GitHub Pages(編集中)
