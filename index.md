@@ -11,9 +11,14 @@ script: toppage.js
 - [Python メモ](./notes/python.md)
 - git
     - [Git コミットメッセージ 完全ガイド](./notes/git/GitCommentMeassageGuide.md)
+- GitHub
+    - GitHub Pages(編集中)
+    - このページについて(編集中)
 - [About ページ](./about.md)
 
-test run toppage.js
 
+---
+test run toppage.js
+3D.jsのテストもついでに
 
 <div id="chart"></div>
